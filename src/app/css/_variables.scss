@@ -1,0 +1,15 @@
+//variables
+$primary-color: #3d8168;
+$primary-bkgd-color: #f2eae2;
+$neutral-dark: #1c232b;
+$neutral-medium: #6c7289;
+$neutral-white: #ffff;
+
+//variables exported for use within nextJS
+:export {
+  primaryColor: $primary-color;
+  primaryBkgdColor: $primary-bkgd-color;
+  neutralDark: $neutral-dark;
+  neutralMedium: $neutral-medium;
+  neutralWhite: $neutral-white;
+}
