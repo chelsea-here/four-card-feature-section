@@ -7,6 +7,7 @@
   align-items: center;
   font-size: 0.9375rem;
   row-gap: 4.75rem;
+  min-height: 100vh;
 
   @include mobile {
     padding: 2rem;
