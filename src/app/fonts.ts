@@ -1,17 +1,10 @@
-import { Montserrat, Fraunces } from "next/font/google";
+import { Poppins } from "next/font/google";
 
-export const mont_init = Montserrat({
+export const poppins_init = Poppins({
   subsets: ["latin"],
   display: "swap",
-  weight: ["500", "700"],
-  variable: "--font-mont",
-});
-export const fraunces_init = Fraunces({
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["700"],
-  variable: "--font-fraunces",
+  weight: ["300", "400", "600"],
+  variable: "--font-poppins",
 });
 
-export const mont = mont_init.variable;
-export const fraunces = fraunces_init.variable;
+export const poppins = poppins_init.variable;

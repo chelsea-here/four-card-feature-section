@@ -5,13 +5,15 @@
   }
 }
 
-@mixin desktop() {
+@mixin tablet() {
   /* Tablet and Smaller Desktop */
-  @media (min-width: 701px) and (max-width: 1120px) {
+  @media (min-width: 701px) and (max-width: 1180px) {
     @content;
   }
-  /* Desktop */
-  @media (min-width: 1121px) {
+}
+
+@mixin desktop() {
+  @media (min-width: 1181px) {
     @content;
   }
 }
