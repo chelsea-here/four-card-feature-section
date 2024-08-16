@@ -14,6 +14,12 @@
     padding-bottom: 5.2em;
   }
 
+  @include tablet {
+    padding: 2rem;
+    padding-top: 5.666666666666667em;
+    padding-bottom: 5.2em;
+  }
+
   @include desktop {
     row-gap: 4rem;
   }
