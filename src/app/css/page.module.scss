@@ -108,7 +108,7 @@
 
   @include hover {
     //enable hover effect only on non-touch devices
-    background-color: $neutral-dark;
+    background-color: var(--primary-color-white);
     cursor: pointer;
   }
 }
