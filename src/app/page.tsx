@@ -31,7 +31,7 @@ const Home: React.FC = () => (
         ))}
       </div>
     </main>
-    <div className={styles.attributionWrapper}>
+    <div role="contentinfo" className={styles.attributionWrapper}>
       <div className={styles.attribution}>
         Challenge by{" "}
         <a

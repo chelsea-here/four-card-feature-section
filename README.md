@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/chelsea-here/product-preview-card-component](https://github.com/chelsea-here/product-preview-card-component)
-- Live Site URL: [https://product-preview-card-component-pi-lime.vercel.app/](https://product-preview-card-component-pi-lime.vercel.app/)
+- Solution URL: [https://github.com/chelsea-here/four-card-feature-section](https://github.com/chelsea-here/four-card-feature-section)
+- Live Site URL: [https://four-card-feature-section-chelsea-heres-projects.vercel.app/](https://four-card-feature-section-chelsea-heres-projects.vercel.app/)
 
 ## Built with
 

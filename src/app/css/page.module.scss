@@ -34,11 +34,13 @@
     font-size: clamp(1.5rem, 1.2359rem + 1.1268vw, 2.25rem);
     font-style: normal;
     letter-spacing: 0.00696em;
-    line-height: normal;
+    line-height: 1.41666667;
+    color: #4d4f6280; //added "80" to the end of the hex color to make it 50% opacity.  <span> does not allow you to modify opacity separate from its parent.
   }
 
   span {
     font-weight: 600;
+    color: #4d4f62;
   }
 
   p {
